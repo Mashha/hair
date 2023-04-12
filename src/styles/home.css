@@ -1,0 +1,76 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url("https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-bg {
+  width: inherit;
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.center {
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  gap: 30px;
+  text-align: center;
+}
+
+.center div h1 {
+  font-size: 52px;
+  letter-spacing: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons a {
+  padding: 10px 20px;
+  background-color: bisque;
+}
+
+main {
+  display: grid;
+  grid-gap: 50px;
+}
+
+@media (min-width: 769px) {
+  .center {
+    width: 90%;
+    margin: auto;
+  }
+  .center div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .center div h1 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1400px) {
+  .center div h1 {
+    font-size: 70px;
+  }
+}

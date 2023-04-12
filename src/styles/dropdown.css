@@ -1,0 +1,30 @@
+.dropdown-menu {
+  list-style: none;
+  text-align: start;
+  position: relative;
+  top: 20px;
+}
+
+.menu-items {
+  padding: 15px;
+}
+
+.menu-items a {
+  text-decoration: none;
+}
+
+@media (min-width: 769px) {
+  .dropdown-menu {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50px;
+  }
+
+  .dropdown-menu li:hover {
+    background: #3333335b;
+  }
+
+  .drop-menu {
+    display: none;
+  }
+}

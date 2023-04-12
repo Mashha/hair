@@ -1,0 +1,107 @@
+.testimonials {
+  margin-top: 50px;
+}
+.testimonials h1 {
+  text-align: center;
+  position: relative;
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--title);
+  font-size: var(--title-size);
+}
+
+.testimonials h1:after {
+  content: "";
+  height: 4px;
+  width: 80px;
+  background-color: var(--underline);
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.testimonials-inner {
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.mySwiper {
+  max-width: 100%;
+}
+
+.block {
+  background-color: #fff;
+  padding: 15px;
+  margin: 50px 15px;
+  box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+}
+
+.block .top {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100px !important;
+  height: 100px;
+  border: 7px solid var(--dark) !important;
+  border-radius: 170px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-name {
+  font-weight: bold;
+  position: relative;
+}
+
+.top .info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-name:after {
+  content: "";
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 25px);
+  background-color: var(--dark);
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+}
+
+.content p {
+  line-height: 24px;
+}
+
+.info .user-name {
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.info h4 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.bottom {
+  margin-bottom: 20px;
+}

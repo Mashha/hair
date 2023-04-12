@@ -1,0 +1,79 @@
+.services h1,
+h3,
+p {
+  text-align: center;
+  color: #676966;
+}
+
+.services h3 {
+  margin: 10px 0;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400;
+  color: #676966;
+}
+
+.services h1 {
+  margin: 50px;
+  position: relative;
+  font-family: "Archivo", sans-serif;
+  color: var(--title);
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: var(--title-size);
+}
+
+.services h1::after {
+  content: "";
+  width: 80px;
+  position: absolute;
+  height: 4px;
+  bottom: -5px;
+  background-color: var(--underline);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.services .services-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+}
+
+.services .services-inner .service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services .services-inner .service img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.services .services-inner .service button {
+  border: none;
+  border-radius: 5px;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--light);
+}
+
+.services .services-inner .service button i {
+  font-size: 10px;
+  color: #fff;
+}
+.services .services-inner .service button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  .services .services-inner {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
