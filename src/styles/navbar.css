@@ -6,6 +6,7 @@
   top: 105px;
   background-color: rgba(255, 255, 255, 0.15) !important;
   backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
   z-index: 10;
   display: flex;
   justify-content: space-between;
@@ -38,6 +39,7 @@
 .nav-side-menu.start {
   background-color: rgb(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   left: 0;
   opacity: 1;
   transition: all 0.5s ease;
@@ -106,6 +108,7 @@
 
 .nav-color {
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   background-color: rgb(255, 255, 255, 0.15);
   position: fixed;
 }

@@ -13,10 +13,13 @@ export default function Home() {
       <div className="hero">
         <div className="hero-bg">
           <div className="center">
-            <div>
+            <div className="title_one">
               <h2 className="title">Frizerstvo</h2>
               <h2 className="title">Brivstvo</h2>
               <h2 className="title">Fotografija</h2>
+            </div>
+            <div className="title_two">
+              <h3>Vrhunske prinčeske, luksuzna nega za moške ter ujeti trenutki v objektivu</h3>
             </div>
             <div className="buttons">
               <NavHashLink to="#serviceSection" smooth>

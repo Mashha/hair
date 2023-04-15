@@ -18,8 +18,7 @@ export default function Services() {
           </Button>
           <h3>Frizerstvo</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut,
-            maxime.
+            Ohranjamo zdrave in sijoče lase.
           </p>
         </div>
         <div className="service">
@@ -33,8 +32,7 @@ export default function Services() {
           </Button>
           <h3>Brivstvo</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut,
-            maxime.
+            Oblikujemo in negujemo brado.
           </p>
         </div>
         <div className="service">
@@ -48,8 +46,7 @@ export default function Services() {
           </Button>
           <h3>Fotografija</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut,
-            maxime.
+            Ustvarjamo nepoazbne spomine.
           </p>
         </div>
       </div>

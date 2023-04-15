@@ -37,6 +37,12 @@
   color: white;
 }
 
+.title_two h3 {
+  font-size: 18px;
+  color: white;
+  font-family: "quicksand", sans-serif;
+}
+
 .buttons {
   display: flex;
   gap: 15px;
@@ -64,6 +70,14 @@ main {
     justify-content: center;
     gap: 20px;
   }
+
+  .title_two {
+    max-width: 50%;
+  }
+
+  .title_two h3 {
+    font-size: 22px;
+  }
 }
 @media (min-width: 1000px) {
   .center div h2 {
@@ -73,5 +87,8 @@ main {
 @media (min-width: 1400px) {
   .center div h2 {
     font-size: 70px;
+  }
+  .title_two h3 {
+    font-size: 24px;
   }
 }
