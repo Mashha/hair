@@ -1,0 +1,27 @@
+.beard-hero {
+  width: 100%;
+  height: 70vh;
+  background-image: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFyYmVyc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beard-hero-inner {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.beard-main {
+  margin-bottom: 50px;
+}
+
+.beard-hero h2 {
+  font-size: 60px;
+  letter-spacing: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: white;
+}

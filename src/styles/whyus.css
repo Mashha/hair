@@ -4,27 +4,6 @@
   background-color: var(--bg-sec);
   padding: 30px 0 50px 0;
 }
-.why-choose-us h1 {
-  margin-bottom: 50px;
-  position: relative;
-  font-family: "Archivo", sans-serif;
-  font-weight: 800;
-  letter-spacing: 2px;
-  color: var(--title);
-  font-size: var(--title-size);
-}
-
-.why-choose-us h1::after {
-  content: "";
-  height: 4px;
-  width: 80px;
-  background-color: var(--underline);
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
 
 .why-choose-us .why-us-inner {
   display: grid;

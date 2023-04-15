@@ -18,13 +18,16 @@ export default function Dropdown() {
       >
         {MenuItems.map((item, index) => {
           return (
-            <li
-              className="menu-items"
-              key={index}
-              onClick={() => setMenu(false)}
-            >
-              <Link to={item.path}>{item.title}</Link>
-            </li>
+            <Link to={item.path}>
+              {" "}
+              <li
+                className="menu-items"
+                key={index}
+                onClick={() => setMenu(false)}
+              >
+                {item.title}
+              </li>
+            </Link>
           );
         })}
       </ul>

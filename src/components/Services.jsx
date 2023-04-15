@@ -13,7 +13,7 @@ export default function Services() {
             alt=""
           />
           <Button>
-            <Link to="./pages/hair.html">Več info</Link>
+            <Link to="/frizerstvo">Več info</Link>
             <i className="fa-solid fa-chevron-right"></i>
           </Button>
           <h3>Frizerstvo</h3>
@@ -28,7 +28,7 @@ export default function Services() {
             alt=""
           />
           <Button>
-            <Link to="./pages/beard.html">Več info</Link>
+            <Link to="/brivstvo">Več info</Link>
             <i className="fa-solid fa-chevron-right"></i>
           </Button>
           <h3>Brivstvo</h3>
@@ -43,7 +43,7 @@ export default function Services() {
             alt=""
           />
           <Button>
-            <Link to="./pages/photography.html">Več info</Link>
+            <Link to="/fotografija">Več info</Link>
             <i className="fa-solid fa-chevron-right"></i>
           </Button>
           <h3>Fotografija</h3>

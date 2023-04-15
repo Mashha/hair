@@ -1,11 +1,8 @@
 import "../styles/testimonials.css";
 import { data } from "./Data";
-import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade } from "swiper";
-// import "swiper/modules/navigation/navigation.min.css"
-// import "swiper/css/effect-fade"
 import "swiper/css/bundle";
+import { Autoplay, Pagination } from "swiper";
 
 export default function Testimonials() {
   return (
@@ -13,13 +10,40 @@ export default function Testimonials() {
       <h1>Mnenja strank</h1>
       <div className="testimonials-inner">
         <Swiper
-          //modules={[EffectFade]}
+          modules={[Autoplay, Pagination]}
+          navigation
           slidesPerView={1}
+          speed={800}
           className="mySwiper"
+          loop
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
         >
           {data.map((singleSlide, index) => (
             <SwiperSlide key={index}>
-              <h1>{singleSlide.name}</h1>
+              <div className="block">
+                <div className="top">
+                  <div className="user">
+                    <div className="image">
+                      <img src={singleSlide.url} alt="" />
+                    </div>
+                    <div className="info">
+                      <h2 className="user-name">{singleSlide.name}</h2>
+                      <h4>client</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="bottom">
+                  <div className="content">
+                    <p>{singleSlide.text}</p>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

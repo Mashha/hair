@@ -6,6 +6,7 @@ export default function Footer() {
     <footer>
       <div className="footer-inner">
         <div className="contact-info">
+          <h3>Kontaktni podatki</h3>
           <div className="address">
             <p>Salon povej naprej</p>
             <p>Majorja Lavriča ulica 12</p>
@@ -31,6 +32,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="working-hours">
+          <h3>Odpiralni čas</h3>
           <p>Ponedeljek - petek: 09:00 - 19:00</p>
           <p>Sobota in nedelja: zaprto</p>
         </div>

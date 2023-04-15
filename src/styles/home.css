@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.center div h1 {
+.center div h2 {
   font-size: 52px;
   letter-spacing: 4px;
   font-family: "Poppins", sans-serif;
@@ -48,7 +48,8 @@
 }
 
 main {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-gap: 50px;
 }
 
@@ -65,12 +66,12 @@ main {
   }
 }
 @media (min-width: 1000px) {
-  .center div h1 {
+  .center div h2 {
     font-size: 60px;
   }
 }
 @media (min-width: 1400px) {
-  .center div h1 {
+  .center div h2 {
     font-size: 70px;
   }
 }

@@ -3,28 +3,6 @@
   text-align: center;
 }
 
-.about-me h1 {
-  position: relative;
-  font-family: "Archivo", sans-serif;
-  font-weight: 800;
-  letter-spacing: 2px;
-  color: var(--title);
-  margin-bottom: 40px;
-  font-size: var(--title-size);
-}
-
-.about-me h1:after {
-  content: "";
-  height: 4px;
-  width: 80px;
-  background-color: var(--underline);
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
 .about-me .about-me-inner {
   display: grid;
   grid-template-columns: 1fr;
@@ -54,14 +32,11 @@
   }
 
   .about-me .about-me-inner {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr;
   }
 
   .about-me .about-me-inner .image-section {
     margin: 40px 20px;
-    grid-column: 1/3;
-    grid-row: 1;
     z-index: 10;
     position: relative;
     z-index: 10;
@@ -70,15 +45,6 @@
 
   .about-me .about-me-inner .text-section {
     padding: 10px;
-    grid-row: 1;
-    grid-column: 2/-1;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: none;
-  }
-
-  .about-me .about-me-inner .text-section .text-inner {
-    grid-column: 2/-1;
-    grid-row: 1;
   }
 }

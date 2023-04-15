@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import Button from "../Button";
 import Services from "../Services";
 import WhyUs from "../WhyUs";
 import Testimonials from "../Testimonials";
 import "../../styles/home.css";
 import About from "../About";
-import Footer from "../Footer";
 import { NavHashLink } from "react-router-hash-link";
+import Section from "../Section";
 
 export default function Home() {
   return (
@@ -15,9 +14,9 @@ export default function Home() {
         <div className="hero-bg">
           <div className="center">
             <div>
-              <h1>Frizerstvo</h1>
-              <h1>Brivstvo</h1>
-              <h1>Fotografija</h1>
+              <h2 className="title">Frizerstvo</h2>
+              <h2 className="title">Brivstvo</h2>
+              <h2 className="title">Fotografija</h2>
             </div>
             <div className="buttons">
               <NavHashLink to="#serviceSection" smooth>
@@ -33,8 +32,8 @@ export default function Home() {
         <Services />
         <WhyUs />
         <Testimonials />
+        <Section />
         <About />
-        <Footer />
       </main>
     </>
   );

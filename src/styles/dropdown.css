@@ -2,26 +2,27 @@
   list-style: none;
   text-align: start;
   position: relative;
-  top: 20px;
 }
 
 .menu-items {
-  padding: 15px;
+  padding: 15px 15px 15px 30px;
 }
 
-.menu-items a {
+a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 @media (min-width: 769px) {
   .dropdown-menu {
-    background-color: aquamarine;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255, 0.15);
     position: absolute;
     top: 50px;
   }
 
   .dropdown-menu li:hover {
-    background: #3333335b;
+    background: rgba(255, 255, 255, 0.308);
   }
 
   .drop-menu {

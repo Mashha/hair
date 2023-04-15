@@ -1,37 +1,14 @@
-.services h1,
-h3,
-p {
-  text-align: center;
-  color: #676966;
-}
-
 .services h3 {
+  text-align: center;
   margin: 10px 0;
   font-family: "Source Serif Pro", serif;
   font-weight: 400;
-  color: #676966;
+  font-size: 22px;
+  color: var(--dark);
 }
 
-.services h1 {
-  margin: 50px;
-  position: relative;
-  font-family: "Archivo", sans-serif;
-  color: var(--title);
-  font-weight: 800;
-  letter-spacing: 2px;
-  font-size: var(--title-size);
-}
-
-.services h1::after {
-  content: "";
-  width: 80px;
-  position: absolute;
-  height: 4px;
-  bottom: -5px;
-  background-color: var(--underline);
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+.services p {
+  max-width: 370px;
 }
 
 .services .services-inner {

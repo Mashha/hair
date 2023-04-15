@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../styles/navbar.css";
 import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
@@ -7,6 +7,7 @@ import { NavHashLink } from "react-router-hash-link";
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [show, setShow] = useState(false);
 
   function changeClick() {
     setMenu(!menu);
@@ -19,13 +20,36 @@ export default function Navbar() {
   function onMouseEnter() {
     setDropdown(true);
   }
+
   function onMouseLeave() {
     setDropdown(false);
   }
 
+  function handleShow() {
+    if (window.innerWidth > 769) {
+      if (window.pageYOffset > 0) {
+        if (!show) {
+          setShow(true);
+        }
+      } else {
+        setShow(false);
+      }
+    } else {
+      setShow(true);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleShow);
+
+    return () => {
+      window.removeEventListener("scroll", handleShow);
+    };
+  }, []);
+
   return (
     <>
-      <nav className="navigation">
+      <nav className={`navigation ${show ? "nav-color" : "transparent"}`}>
         <Link to="/home" className="logo">
           Logo
         </Link>
@@ -79,12 +103,12 @@ export default function Navbar() {
 
           <li className="nav-items">
             <Link
-              to="tel: 012345678"
+              to="tel:064-157-600"
               className="nav-links-phone"
               onClick={closeMobileMenu}
             >
               <i className="fa-solid fa-phone"></i>
-              01234567
+              064-157-600
             </Link>
           </li>
         </ul>

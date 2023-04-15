@@ -1,0 +1,42 @@
+.change {
+  background-color: var(--light);
+  padding: 50px 0;
+}
+
+.change-inner {
+  max-width: 90%;
+  margin: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+
+.change-inner h2 {
+  font-size: var(--title-size-sm);
+  font-family: "source serif pro", sans-serif;
+  color: var(--text-color);
+}
+
+.change-inner .priceList {
+  padding: 15px 30px;
+  background-color: var(--title);
+  text-decoration: none;
+  color: var(--bg-sec);
+  font-family: "syne", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 769px) {
+  .change-inner {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+  .change-inner h2 {
+    font-size: var(--title-size);
+  }
+}
