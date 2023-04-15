@@ -10,10 +10,11 @@ import Footer from "./components/Footer";
 import "./App.css";
 import ScrollToTop from "./components/ScrollToTop";
 import ScrollWithButton from "./components/ScrollWithButton";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollWithButton />
       <MobileSection />
       <Navbar />
@@ -27,7 +28,7 @@ function App() {
         </Routes>
       </ScrollToTop>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
