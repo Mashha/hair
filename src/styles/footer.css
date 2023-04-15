@@ -46,6 +46,7 @@ footer p {
 
 .working-hours > p {
   color: var(--bg-primary);
+  font-size: 15px;
 }
 
 footer .footer-inner .social-media {
@@ -67,6 +68,7 @@ footer .credit {
 .phone a,
 .email a {
   font-family: "quicksand", sans-serif;
+  font-size: 15px;
 }
 
 @media (min-width: 769px) {
@@ -78,6 +80,7 @@ footer .credit {
   .contact-info,
   .contact-info .address p {
     text-align: start;
+    font-size: 15px;
   }
 
   .working-hours > * {

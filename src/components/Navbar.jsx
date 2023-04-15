@@ -50,7 +50,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={`navigation ${show ? "nav-color" : "transparent"}`}>
-        <Link to="/home" className="logo">
+        <Link to="/" className="logo">
           Logo
         </Link>
 
