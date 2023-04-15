@@ -19,9 +19,15 @@
 }
 
 .beard-hero h2 {
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 4px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: white;
+}
+
+@media (min-width: 769px) {
+  .beard-hero h2 {
+    font-size: 60px;
+  }
 }
