@@ -13,10 +13,10 @@ export default function MobileSection() {
         </Link>
       </div>
       <div className="social-icons">
-        <Link to="#">
+        <Link to="https://www.facebook.com/profile.php?id=100086505107010" target="_blank">
           <i className="fa-brands fa-facebook"></i>
         </Link>
-        <Link to="#">
+        <Link to="https://www.instagram.com/narg_frizerstvo_brivstvo_foto/" target="_blank">
           <i className="fa-brands fa-instagram"></i>
         </Link>
       </div>

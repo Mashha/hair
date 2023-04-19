@@ -18,7 +18,6 @@ function App() {
       <ScrollWithButton />
       <MobileSection />
       <Navbar />
-      <ScrollToTop>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
@@ -26,8 +25,8 @@ function App() {
           <Route path="/brivstvo" element={<Beard />} />
           <Route path="/fotografija" element={<Photo />} />
         </Routes>
-      </ScrollToTop>
       <Footer />
+      <ScrollToTop />
     </HashRouter>
   );
 }

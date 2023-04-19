@@ -11,12 +11,7 @@ export default function Hair() {
       <main className="hair-main">
         <div className="hair-hero-inner">
           <p>
-            Whether long or short, and no matter the condition of your hair, our
-            team will give you that unique haircut that accentuates your face,
-            meets your expectations, and boosts your confidence. Our haircut
-            services, and the actual cuts, are easy to maintain for that perfect
-            hairdo, and our haircut recommendations will help you care for your
-            new do and keep your new cut and style lasting longer.
+          Frizerski salon Narg nudi široko paleto frizerskih storitev, da zadovolji posebne potrebe svojih strank. Od striženja in barvanja do oblikovanja in tretmajev, ponujam vse, kar potrebujete za doseganje želenega videza. S svojim strokovnim znanjem ustvarjam frizure po meri, ki dopolnjujejo obrazne poteze in tip las vsake stranke. Barve lahko dodajo tudi globino, dimenzijo in živahnost, ne glede na to, ali gre za subtilen balayage ali drzen odtenek. Poleg teh storitev nudim tudi različne možnosti oblikovanja ter frizure za posebne priložnosti, kot so poroke ali maturantski ples. Omogočam tudi tretmaje, kot so globinska nega z masko ter masaže lasišča za nego in krepitev las. Na splošno poskrbim, da je to prava destinacija za vsakogar, ki želi izboljšati svoje lase in se počutiti samozavestnega v svojem videzu.
           </p>
 
           <div className="hair-hero-inner-links">

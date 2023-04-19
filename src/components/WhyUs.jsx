@@ -1,4 +1,5 @@
 import "../styles/whyus.css";
+import { Link } from "react-router-dom";
 
 export default function WhyUs() {
   return (
@@ -7,12 +8,32 @@ export default function WhyUs() {
       <div className="why-us-inner">
         <div className="top-text">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-            temporibus esse totam error fugiat praesentium voluptates eveniet
-            dicta laborum, quibusdam cum quam excepturi nihil suscipit expedita.
-            Inventore eveniet quam laborum vero nobis cumque laboriosam
-            reprehenderit voluptatibus odio minima quis, nesciunt repellat error
-            ab numquam consequatur eaque autem. Tenetur, accusantium autem!
+            Moja misija je krepiti zaupanje in dobro počutje strank. Verjamem v
+            nego las in brade z minimalnim vplivom na živali in planet.
+          </p>
+          <p>
+            Uporabljam{" "}
+            <Link
+              to="https://www.act-now.fi/en/"
+              className="products-link"
+              target="_blank"
+            >
+              veganske izdelke
+            </Link>
+            , ki niso testirani na živalih in so brez sulfitov ter silikonov. So
+            nežni tako za lase, kot tudi kožo.
+          </p>
+          <p>
+            Poleg tega veganski izdelki nudijo vrsto prednosti: vsebujejo skrbo
+            izbrane naravne sestavine, ne vsebujejo močnih kemikalij in
+            sintetičnih dišav, ki lahko dražijo in poškodujejo lase in lasišče,
+            in so izdelani iz biorazgradljivih sestavin in embalažnih
+            materialov.
+          </p>
+
+          <p>
+            V salonu so vse stranke deležne natančnosti, nežnosti in
+            profesionalnosti.
           </p>
         </div>
         <div className="bottom">

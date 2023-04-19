@@ -13,16 +13,29 @@ export default function Navbar() {
     setMenu(!menu);
   }
 
-  function closeMobileMenu() {
+  function closeMobileMenu(e) {
+    if(e.target.id === "storitve-btn"){
+      return
+    } 
     setMenu(false);
   }
 
+  function mobile(){
+    if(window.innerWidth < 769){
+      setDropdown(!dropdown)
+    }
+  }
+
   function onMouseEnter() {
-    setDropdown(true);
+    if (window.innerWidth > 769) {
+      setDropdown(true);
+    }
   }
 
   function onMouseLeave() {
-    setDropdown(false);
+    if (window.innerWidth > 769) {
+      setDropdown(false);
+    }
   }
 
   function handleShow() {
@@ -50,11 +63,11 @@ export default function Navbar() {
   return (
     <>
       <nav className={`navigation ${show ? "nav-color" : "transparent"}`}>
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" onClick={closeMobileMenu}>
           Logo
         </Link>
 
-        <div className="menu-icon" onClick={changeClick}>
+        <div className="menu-icon" onClick={(event) => changeClick(event)}>
           <i className={menu ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
 
@@ -63,16 +76,23 @@ export default function Navbar() {
             className="nav-items"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
+            onClick={mobile}
           >
-            <Link className="nav-links" onClick={closeMobileMenu}>
-              Storitve <i className="fas fa-caret-down" />
+            <Link
+              className="nav-links"
+              onClick={(e) =>closeMobileMenu(e)}
+              id="storitve-btn"
+              to={null}
+            >
+              Storitve
+              <i className="fa fa-angle-down" />
               {dropdown && <Dropdown />}
             </Link>
           </li>
 
           <li className="nav-items">
             <NavHashLink
-              to="/home/#about"
+              to="/#about"
               className="nav-links"
               onClick={closeMobileMenu}
               smooth
@@ -84,7 +104,7 @@ export default function Navbar() {
 
           <li className="nav-items">
             <NavHashLink
-              to="/home/#why-us"
+              to="/#why-us"
               className="nav-links"
               onClick={closeMobileMenu}
               smooth

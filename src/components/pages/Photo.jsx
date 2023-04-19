@@ -9,12 +9,7 @@ export default function Photo() {
       <main className="photo-main">
         <div className="photo-hero-inner">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-            temporibus esse totam error fugiat praesentium voluptates eveniet
-            dicta laborum, quibusdam cum quam excepturi nihil suscipit expedita.
-            Inventore eveniet quam laborum vero nobis cumque laboriosam
-            reprehenderit voluptatibus odio minima quis, nesciunt repellat error
-            ab numquam consequatur eaque autem. Tenetur, accusantium autem!
+          Ko si stranke v salonu uredijo novo pričesko, želijo pogosto ujeti trenutek in pokazati svoj novi videz. Zato svojim strankam ponujam tudi fotografske storitve. Stranko fotografiram v določenem prostoru salona, z uporabo različnih tehnik osvetlitve in poziranja pa ustvarim osupljive slike. Stranka lahko te fotografije uporabi za svojo osebno uporabo, na primer za posodabljanje svojih profilov na družabnih omrežjih ali prikazovanje prijateljem in družini. Salon jih lahko uporablja tudi v promocijske namene, za predstavitev svojega dela in pridobivanje novih strank. S ponudbo storitev fotografiranja po pričeski saloni strankam nudijo edinstveno izkušnjo, ki jim omogoča, da v celoti cenijo svoj novi videz in ga delijo z drugimi.
           </p>
         </div>
 

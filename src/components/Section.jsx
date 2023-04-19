@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import pdf from "../assets/Cenik_Narg.pdf";
 import "../styles/section.css";
 
@@ -9,9 +8,9 @@ export default function Section() {
         <div className="change-inner">
           <h2>Si želite spremembe?</h2>
 
-          <Link to={pdf} target="_blank" className="priceList">
+          <a href={pdf} rel="noreferrer" target="_blank" className="priceList">
             Cenik
-          </Link>
+          </a>
         </div>
       </div>
     </>

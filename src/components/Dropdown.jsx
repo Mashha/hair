@@ -18,11 +18,10 @@ export default function Dropdown() {
       >
         {MenuItems.map((item, index) => {
           return (
-            <Link to={item.path}>
+            <Link to={item.path} key={index}>
               {" "}
               <li
                 className="menu-items"
-                key={index}
                 onClick={() => setMenu(false)}
               >
                 {item.title}

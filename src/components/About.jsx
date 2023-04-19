@@ -14,12 +14,7 @@ export default function About() {
         <div className="text-section">
           <div className="text-inner">
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
-              repellendus quis sed distinctio ipsum quae laboriosam ad voluptas
-              accusantium rem, expedita voluptatem, reiciendis magni vel harum
-              quibusdam veniam cum consequatur explicabo alias. Pariatur impedit
-              eum in, esse eveniet voluptatum sed omnis tenetur iure placeat
-              molestiae. Optio, asperiores? Eveniet, explicabo molestias.
+            Sem Maja, že od malega me veseli frizerstvo in brivstvo ter fotografija, zato sem se odločila učiti od najboljših. Prej sem delala pri Ljubljanskih brivcih in Stevotu. Udeležila sem se številnih seminarjev. Leta 2022 sem se odločila za samostojno pot, zato sem odprla s.p. in ustvarila NARG. Pri meni do dobrodosle stranke vseh starosti Moški in ženske. Uporabljam veganske izdelke, ki niso testirani na zivalih in so brez sulfatov in silikonov.
             </p>
           </div>
         </div>

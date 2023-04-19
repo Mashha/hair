@@ -13,7 +13,7 @@ export default function Testimonials() {
           modules={[Autoplay, Pagination]}
           navigation
           slidesPerView={1}
-          speed={800}
+          speed={900}
           className="mySwiper"
           loop
           autoplay={{

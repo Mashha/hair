@@ -9,12 +9,7 @@ export default function Beard() {
       <main className="beard-main">
         <div className="beard-hero-inner">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-            temporibus esse totam error fugiat praesentium voluptates eveniet
-            dicta laborum, quibusdam cum quam excepturi nihil suscipit expedita.
-            Inventore eveniet quam laborum vero nobis cumque laboriosam
-            reprehenderit voluptatibus odio minima quis, nesciunt repellat error
-            ab numquam consequatur eaque autem. Tenetur, accusantium autem!
+          V frizerskem salonu Narg ponujam tudi brivske storitve, ki prinašajo bolj tradicionalen in klasičen pristop k urejanju moških. Te storitve vključujejo britje brade z britvijo, striženje in barvanje brade, britje glave in nego obrvi. To moškim omogoča, da na enem mestu uživajo v prednostih frizerskega salona in brivnice. Poleg tega lahko brivske storitve v frizerskem salonu nudijo tudi bolj sproščeno in družabno vzdušje, kar strankam daje priložnost, da se srečajo s prijatelji ali navežejo nove vezi. Z združevanjem storitev frizerskega salona in brivnice sem želela poskrbeti za bolj raznoliko in celovito ponudbo storitev nege las.
           </p>
         </div>
 

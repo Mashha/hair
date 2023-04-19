@@ -37,6 +37,10 @@
   color: white;
 }
 
+.title_two {
+  padding: 0 20px;
+}
+
 .title_two h3 {
   font-size: 18px;
   color: white;
@@ -90,5 +94,16 @@ main {
   }
   .title_two h3 {
     font-size: 24px;
+  }
+}
+@media (min-width: 1600px) {
+  .title_two {
+    max-width: 40%;
+  }
+  .center div h2 {
+    font-size: 80px;
+  }
+  .title_two h3 {
+    font-size: 28px;
   }
 }
