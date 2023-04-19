@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import MobileSection from "./components/MobileSection";
@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 import "./App.css";
 import ScrollToTop from "./components/ScrollToTop";
 import ScrollWithButton from "./components/ScrollWithButton";
-import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
           <Route path="/fotografija" element={<Photo />} />
         </Routes>
       <Footer />
-      <ScrollToTop />
+      <ScrollToTop /> 
     </HashRouter>
   );
 }
